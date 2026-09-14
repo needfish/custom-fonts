@@ -21,7 +21,7 @@ set -euo pipefail
 
 cd "$(dirname "$0")"
 
-FAMILY=KitanMonoTermNerd
+FAMILY='Kitan Mono Term Nerd'
 FONT_PATCHER=${FONT_PATCHER:-font-patcher}
 FONT_PATCHER_PY=${FONT_PATCHER_PY:-python3}
 SRC_DIR=${SRC_DIR:-../kitan_mono_term}

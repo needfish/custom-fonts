@@ -1,4 +1,4 @@
-# Rename the font-patcher output to the KitanMonoTermNerd family (used by nerd-patch.sh).
+# Rename the font-patcher output to the Kitan Mono Term Nerd family (used by nerd-patch.sh).
 import fontforge, os, sys, glob
 
 STYLES = {
@@ -7,7 +7,8 @@ STYLES = {
     'Italic':     ('Italic',      400),
     'BoldItalic': ('Bold Italic', 700),
 }
-FAMILY = 'KitanMonoTermNerd'
+FAMILY = 'Kitan Mono Term Nerd'
+PS = FAMILY.replace(' ', '')
 src, dst = sys.argv[1], sys.argv[2]
 os.makedirs(dst, exist_ok=True)
 for p in sorted(glob.glob(os.path.join(src, '*.ttf'))):
@@ -15,7 +16,7 @@ for p in sorted(glob.glob(os.path.join(src, '*.ttf'))):
     key = base.split('-')[-1].replace('.ttf', '')
     sub, weight = STYLES[key]
     full = FAMILY if sub == 'Regular' else FAMILY + ' ' + sub
-    ps = FAMILY + '-' + key
+    ps = PS + '-' + key
     f = fontforge.open(p)
     f.familyname = FAMILY
     f.fullname = full

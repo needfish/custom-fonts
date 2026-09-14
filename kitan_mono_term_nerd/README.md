@@ -1,14 +1,14 @@
-# KitanMonoTermNerd
+# Kitan Mono Term Nerd
 
 `Kitan Mono Term` (custom Iosevka build, see `../private-build-plans.toml`)
 patched with the [Nerd Fonts](https://www.nerdfonts.com) icon set.
 
 | File | Family | Style |
 | --- | --- | --- |
-| `KitanMonoTermNerd-Regular.ttf` | `KitanMonoTermNerd` | Regular |
-| `KitanMonoTermNerd-Bold.ttf` | `KitanMonoTermNerd` | Bold |
-| `KitanMonoTermNerd-Italic.ttf` | `KitanMonoTermNerd` | Italic |
-| `KitanMonoTermNerd-BoldItalic.ttf` | `KitanMonoTermNerd` | Bold Italic |
+| `KitanMonoTermNerd-Regular.ttf` | `Kitan Mono Term Nerd` | Regular |
+| `KitanMonoTermNerd-Bold.ttf` | `Kitan Mono Term Nerd` | Bold |
+| `KitanMonoTermNerd-Italic.ttf` | `Kitan Mono Term Nerd` | Italic |
+| `KitanMonoTermNerd-BoldItalic.ttf` | `Kitan Mono Term Nerd` | Bold Italic |
 
 Built with Nerd Fonts **v3.5.1** and these font-patcher options:
 
@@ -23,7 +23,8 @@ font-patcher --careful --complete --single-width-glyphs <font>
   shifts in the terminal, while the font's native wide glyphs stay wide.
 
 The resulting family name/suffix from font-patcher is normalised to
-`KitanMonoTermNerd` by `rename.py`.
+`Kitan Mono Term Nerd` by `rename.py` (the PostScript name stays
+space-free: `KitanMonoTermNerd-<style>`).
 
 ## Rebuild
 
