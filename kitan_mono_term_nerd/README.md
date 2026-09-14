@@ -19,7 +19,7 @@ font-patcher --careful --complete --single-width-glyphs <font>
 * `--careful` keeps the font's own braille, powerline, IEC power symbols and
   progress-indicator glyphs (only missing icons are added).
 * `--complete` adds the full Nerd Fonts symbol set (~10.5k glyphs per style).
-* `--single-width-glyphs` draws every icon in a single 600-unit cell, so nothing
+* `--single-width-glyphs` draws every icon in a single 576-unit cell, so nothing
   shifts in the terminal, while the font's native wide glyphs stay wide.
 
 The resulting family name/suffix from font-patcher is normalised to
