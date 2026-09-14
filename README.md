@@ -10,9 +10,9 @@ Custom Iosevka variant with the following:
 - ﻿﻿`zero = "oval-dotted"`
 - `capital-j = "serifless"`
 - `y = "straight-turn-serifless"`
-- width = 576
+- width = 600
 
-Nerd Font patched builds of the same variant (family `Kitan Mono Term Nerd`, see
+Nerd Font patched builds of the same variant (family `Kitan Mono NT`, see
 `kitan_mono_term_nerd/`):
 - full Nerd Fonts v3.5.1 symbol set, single-width icons, original
   braille/powerline/box-drawing glyphs preserved

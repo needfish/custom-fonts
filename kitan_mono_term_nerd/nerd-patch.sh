@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Rebuild the KitanMonoTermNerd-*.ttf fonts from ../kitan_mono_term.
+# Rebuild the KitanMonoNT-*.ttf fonts from ../kitan_mono_term.
 #
 # Requirements:
 #   * font-patcher (Nerd Fonts v3.5.1 FontPatcher.zip) and the python3-fontforge
@@ -21,7 +21,7 @@ set -euo pipefail
 
 cd "$(dirname "$0")"
 
-FAMILY='Kitan Mono Term Nerd'
+FAMILY='Kitan Mono NT'
 FONT_PATCHER=${FONT_PATCHER:-font-patcher}
 FONT_PATCHER_PY=${FONT_PATCHER_PY:-python3}
 SRC_DIR=${SRC_DIR:-../kitan_mono_term}
